@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Pozadi
+    uniqueID: 1076929311
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Pozadi2
+    uniqueID: 2126124491
+    locked: 0
+  - name: Pozadi3
+    uniqueID: 2470546923
+    locked: 0
+  - name: Plosina
+    uniqueID: 3183602003
     locked: 0
