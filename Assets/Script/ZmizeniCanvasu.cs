@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class ZmizeniCanvasu : MonoBehaviour
 {
-    public Canvas canvas; 
+    public Canvas canvas;
+
+    [SerializeField]
+    GameObject ovladani;
 
     void Start()
     {
@@ -20,7 +23,8 @@ public class ZmizeniCanvasu : MonoBehaviour
 
     void SkryjCanvas()
     {
-        
+
         canvas.enabled = false;
+        //ovladani.SetActive(false);
     }
 }
